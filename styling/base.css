@@ -1,3 +1,6 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 :root {
     /* Colors */
     --main-heading-color: #1a252f; 
@@ -16,7 +19,4 @@
     --section-padding: 3rem; 
     --button-padding: 0.5rem 1.5rem; 
 }
-
-/* Import Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
