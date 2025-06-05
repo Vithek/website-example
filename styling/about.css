@@ -97,3 +97,26 @@ section.border .btn-primary:hover {
     font-weight: var(--text-font-weight);
     border-color: var(--card-border-color);
 }
+
+/* Skills Section */
+.skills-section {
+    background-color: var(--background-color);
+}
+
+.skills-section h2 {
+    color: var(--main-heading-color);
+    font-family: var(--primary-font);
+    font-weight: var(--heading-font-weight);
+}
+
+.table {
+    background-color: var(--secondary-background-color);
+    border-color: var(--card-border-color);
+}
+
+.table th, .table td {
+    color: var(--main-text-color);
+    font-family: var(--primary-font);
+    font-weight: var(--text-font-weight);
+    border-color: var(--card-border-color);
+}
