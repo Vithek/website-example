@@ -14,7 +14,7 @@
 /* Bio Section */
 section.border {
     background-color: var(--secondary-background-color);
-    border-color: var(--card-border-color);
+    border-color: var(--card-border-color) !important;
     border-width: 2px;
     border-radius: 0.75rem;
 }

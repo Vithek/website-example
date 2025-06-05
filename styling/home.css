@@ -25,7 +25,7 @@ h2 {
 }
 .card {
     font-family: var(--primary-font);
-    border-color: var(--main-heading-color);
+    border-color: var(--accent-color);
 }
 
 .card .card-title {
