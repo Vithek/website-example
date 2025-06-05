@@ -1,0 +1,41 @@
+/* Contact Section */
+.contact-section {
+    background-color: var(--background-color);
+}
+
+.contact-section h1.display-4 {
+    color: var(--main-heading-color);
+    font-family: var(--primary-font);
+    font-weight: var(--heading-font-weight);
+}
+
+.contact-section p {
+    color: var(--main-text-color);
+    font-family: var(--primary-font);
+    font-weight: var(--text-font-weight);
+}
+
+form {
+    background-color: var(--secondary-background-color);
+    padding: 20px;
+    border-radius: 0.75rem;
+    border: 2px solid var(--card-border-color);
+}
+
+.form-label {
+    color: var(--main-heading-color);
+    font-family: var(--primary-font);
+    font-weight: var(--heading-font-weight);
+}
+
+.form-control {
+    background-color: var(--background-color);
+    color: var(--main-text-color);
+    border: 1px solid var(--card-border-color);
+}
+
+.form-control:focus {
+    background-color: var(--background-color);
+    border-color: var(--accent-color);
+    box-shadow: 0 0 5px var(--accent-color);
+}

@@ -31,19 +31,6 @@ section.border p {
     font-weight: var(--text-font-weight);
 }
 
-section.border .btn-primary {
-    background-color: var(--accent-color);
-    border-color: var(--accent-color);
-    color: var(--button-text-color);
-    padding: var(--button-padding);
-    transition: background-color 0.3s ease;
-}
-
-section.border .btn-primary:hover {
-    background-color: darken(var(--accent-color), 10%);
-    border-color: darken(var(--accent-color), 10%);
-}
-
 /* Modal */
 .modal-content {
     background-color: var(--secondary-background-color);

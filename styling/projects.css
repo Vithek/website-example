@@ -32,19 +32,6 @@
     border-radius: 50%;
 }
 
-.btn-primary {
-    background-color: var(--accent-color);
-    border-color: var(--accent-color);
-    color: var(--button-text-color);
-    padding: var(--button-padding);
-    transition: background-color 0.3s ease;
-}
-
-.btn-primary:hover {
-    background-color: darken(var(--accent-color), 10%);
-    border-color: darken(var(--accent-color), 10%);
-}
-
 .carousel-control-prev,
 .carousel-control-next {
     filter: invert(1) brightness(2); /* Invert colors for better visibility */

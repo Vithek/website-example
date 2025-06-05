@@ -11,31 +11,6 @@
     font-weight: var(--text-font-weight);
 }
 
-.hero .btn-primary {
-    background-color: var(--accent-color);
-    border-color: var(--accent-color);
-    color: var(--button-text-color);
-    padding: var(--button-padding);
-    transition: background-color 0.3s ease;
-}
-
-.hero .btn-primary:hover {
-    background-color: darken(var(--accent-color), 10%);
-    border-color: darken(var(--accent-color), 10%);
-}
-
-.hero .btn-outline-secondary {
-    color: var(--main-heading-color);
-    border-color: var(--main-heading-color);
-    padding: var(--button-padding);
-    transition: background-color 0.3s ease;
-}
-
-.hero .btn-outline-secondary:hover {
-    background-color: var(--main-heading-color);
-    color: var(--button-text-color);
-}
-
 .section-bg {
     background-color: var(--background-color);
 }
