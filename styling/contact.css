@@ -15,6 +15,7 @@
     font-weight: var(--text-font-weight);
 }
 
+/* Form Styles */
 form {
     background-color: var(--secondary-background-color);
     padding: 20px;
@@ -35,7 +36,17 @@ form {
 }
 
 .form-control:focus {
+    color: var(--main-heading-color);
     background-color: var(--background-color);
     border-color: var(--accent-color);
     box-shadow: 0 0 5px var(--accent-color);
+}
+
+form.was-validated {
+    border-color: var(--accent-color) !important;
+}
+
+form.was-validated .form-control:valid {
+    border-color: var(--accent-color) !important;
+    box-shadow: 0 0 5px var(--accent-color) !important;
 }
