@@ -1,0 +1,58 @@
+/* Projects Section */
+.projects-section {
+    background-color: var(--background-color);
+}
+
+.projects-section h1 {
+    color: var(--main-heading-color);
+    font-family: var(--primary-font);
+    font-weight: var(--heading-font-weight);
+}
+
+.projects-section p{
+    color: var(--main-text-color);
+    font-family: var(--primary-font);
+    font-weight: var(--text-font-weight);
+}
+.carousel-caption {
+    background-color: rgba(27, 38, 59, 0.8); /* Semi-transparent --secondary-background-color */
+    color: var(--main-text-color);
+    font-family: var(--primary-font);
+    font-weight: var(--text-font-weight);
+}
+
+.carousel-caption h5 {
+    color: var(--main-heading-color);
+    font-weight: var(--heading-font-weight);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: var(--accent-color);
+    border-radius: 50%;
+}
+
+.btn-primary {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: var(--button-text-color);
+    padding: var(--button-padding);
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: darken(var(--accent-color), 10%);
+    border-color: darken(var(--accent-color), 10%);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    filter: invert(1) brightness(2); /* Invert colors for better visibility */
+}
+
+@media (min-width: 992px) {
+    .carousel {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+}

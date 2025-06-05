@@ -18,7 +18,7 @@
     <!--Bootstrap NavBar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" aria-label="Main navigation">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">My Website</a>
+            <a class="navbar-brand" href="home.html">Mike's Portfolio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -40,6 +40,44 @@
             </div>
         </div>
     </nav>
+
+    <!-- Project Carousel -->
+    <section class="container py-5 projects-section">
+        <h1 class="text-center display-4 mb-3">My Projects</h1>
+        <p class="text-center mb-5">Here are some of the projects I've worked on, feel free to give them a look on GitHub!</p>
+        <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/wyrms-tavern-img.jpg" class="d-block w-100 img-fluid rounded" alt="Wyrm's Tavern">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Wyrm's Tavern</h5>
+                        <p>An event center website sporting a Dungeons and Dragons aesthetic.</p>
+                        <a href="https://github.com/Vithek/wyrms-tavern.git" class="btn btn-primary mt-2" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/project2.jpg" class="d-block w-100 img-fluid rounded" alt="Project 2">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Project 2</h5>
+                        <p>Insert Project Description Here</p>
+                        <a href="#" class="btn btn-primary mt-2" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
