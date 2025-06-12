@@ -25,6 +25,13 @@ to my e-mail directly. I'd like to figure out how to do this without dependency 
 The form validates itself but still has a few errors particularly in the e-mail section where e-mails are accepted even without the .com. I'm working on that
 as well. 
 
+// Script in Homescript
+In the homescript.js file you'll see 4 functions listed that are there to potentially use and expand later. The goal of each starting from the top is to 
+pull the classes of the carousel and be able to filter by that, the second should be to filter via text input later on and filter by that, while the third 
+is a simple way to list the skills that I currently have and can expand on later, and finally the last is just a simple form validation for the e-mail so I can 
+make sure the form will prevent people from submitting invalid e-mails on the contact page. Each is designed to take user input inside the console, so I didn't
+feel the need to declare a variable that would be entered. Instead you can search what skills I have or check and see if your own e-mail is valid.
+
 // Future Goals
 I'd like to get all the javascript functioning on the website, and pull away from dependency on the form submission website, as well as migrating this to 
 tailwind over boostrap for a more polished feel with more customizability. I've seen what people can do on tailwind and I feel it would provide me more use later
